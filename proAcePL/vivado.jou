@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Oct 26 04:39:59 2022
+# Process ID: 21568
+# Current directory: U:/PYNQ/proAcePL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20032 U:\PYNQ\proAcePL\proAcePL.xpr
+# Log file: U:/PYNQ/proAcePL/vivado.log
+# Journal file: U:/PYNQ/proAcePL\vivado.jou
+# Running On: DESKTOP-F2HFSJJ, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 34195 MB
+#-----------------------------------------------------------
+start_gui
+open_project U:/PYNQ/proAcePL/proAcePL.xpr
+upgrade_project -migrate_output_products
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+open_bd_design {u:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/proAceBD.bd}
+update_ip_catalog -rebuild
+upgrade_ip -vlnv xilinx.com:ip:axi_interconnect:2.1 [get_ips  proAceBD_ps7_0_axi_periph_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips proAceBD_ps7_0_axi_periph_0] -no_script -sync -force -quiet
+generate_target all [get_files  U:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/proAceBD.bd]
+catch { config_ip_cache -export [get_ips -all proAceBD_proAceIP_0_0] }
+catch { config_ip_cache -export [get_ips -all proAceBD_rst_ps7_0_100M_0] }
+catch { config_ip_cache -export [get_ips -all proAceBD_auto_pc_0] }
+export_ip_user_files -of_objects [get_files U:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/proAceBD.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] U:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/proAceBD.bd]
+launch_runs proAceBD_proAceIP_0_0_synth_1 proAceBD_processing_system7_0_0_synth_1 proAceBD_rst_ps7_0_100M_0_synth_1 proAceBD_auto_pc_0_synth_1 -jobs 6
+wait_on_run proAceBD_proAceIP_0_0_synth_1
+wait_on_run proAceBD_processing_system7_0_0_synth_1
+wait_on_run proAceBD_rst_ps7_0_100M_0_synth_1
+wait_on_run proAceBD_auto_pc_0_synth_1
+export_simulation -of_objects [get_files U:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/proAceBD.bd] -directory U:/PYNQ/proAcePL/proAcePL.ip_user_files/sim_scripts -ip_user_files_dir U:/PYNQ/proAcePL/proAcePL.ip_user_files -ipstatic_source_dir U:/PYNQ/proAcePL/proAcePL.ip_user_files/ipstatic -lib_map_path [list {modelsim=U:/PYNQ/proAcePL/proAcePL.cache/compile_simlib/modelsim} {questa=U:/PYNQ/proAcePL/proAcePL.cache/compile_simlib/questa} {riviera=U:/PYNQ/proAcePL/proAcePL.cache/compile_simlib/riviera} {activehdl=U:/PYNQ/proAcePL/proAcePL.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+validate_bd_design -force
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_run impl_1
+open_run synth_1 -name synth_1
+report_utilization -name utilization_r
+open_bd_design {u:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/proAceBD.bd}
+report_utilization -name utilization_1
+open_bd_design {u:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/proAceBD.bd}

@@ -1,0 +1,206 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Oct 26 04:39:59 2022
+# Process ID: 21568
+# Current directory: U:/PYNQ/proAcePL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20032 U:\PYNQ\proAcePL\proAcePL.xpr
+# Log file: U:/PYNQ/proAcePL/vivado.log
+# Journal file: U:/PYNQ/proAcePL\vivado.jou
+# Running On: DESKTOP-F2HFSJJ, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 34195 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at U:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project U:/PYNQ/proAcePL/proAcePL.xpr
+INFO: [Project 1-313] Project file moved from 'O:/PYNQ/proAcePL' since last save.
+WARNING: [BD 41-2576] File 'U:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/hw_handoff/proAceBD.hwh' referenced by design 'proAceBD' could not be found.
+Scanning sources...
+Finished scanning sources
+WARNING: [BD 41-2576] File 'U:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/hw_handoff/proAceBD.hwh' referenced by design 'proAceBD' could not be found.
+WARNING: [BD 41-2576] File 'U:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/hw_handoff/proAceBD.hwh' referenced by design 'proAceBD' could not be found.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'u:/PYNQ/ip_repo/proAceIP_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'U:/Xilinx/Vivado/2022.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'proAceBD.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+proAceBD_auto_pc_0
+proAceBD_ps7_0_axi_periph_0
+
+INFO: [Project 1-230] Project 'proAcePL.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 1567.953 ; gain = 0.000
+upgrade_project -migrate_output_products
+INFO: [BD 41-2710] Migrated 'proAceBD_proAceIP_0_0.xci'
+  Source files are located in 'u:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/ip/proAceBD_proAceIP_0_0'
+  Output files are located in 'u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/ip/proAceBD_proAceIP_0_0'.
+INFO: [BD 41-2710] Migrated 'proAceBD_processing_system7_0_0.xci'
+  Source files are located in 'u:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/ip/proAceBD_processing_system7_0_0'
+  Output files are located in 'u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/ip/proAceBD_processing_system7_0_0'.
+WARNING: [IP_Flow 19-2162] IP 'proAceBD_auto_pc_0' is locked:
+* IP definition 'AXI Protocol Converter (2.1)' for IP 'proAceBD_auto_pc_0' (customized with software release 2020.1.1) has a different revision in the IP Catalog.
+INFO: [BD 41-2710] Migrated 'proAceBD_auto_pc_0.xci'
+  Source files are located in 'u:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/ip/proAceBD_auto_pc_0'
+  Output files are located in 'u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/ip/proAceBD_auto_pc_0'.
+WARNING: [IP_Flow 19-2162] IP 'proAceBD_ps7_0_axi_periph_0' is locked:
+* IP definition 'AXI Interconnect (2.1)' for IP 'proAceBD_ps7_0_axi_periph_0' (customized with software release 2020.1.1) has a different revision in the IP Catalog.
+INFO: [BD 41-2710] Migrated 'proAceBD_ps7_0_axi_periph_0.xci'
+  Source files are located in 'u:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/ip/proAceBD_ps7_0_axi_periph_0'
+  Output files are located in 'u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/ip/proAceBD_ps7_0_axi_periph_0'.
+INFO: [BD 41-2710] Migrated 'proAceBD_rst_ps7_0_100M_0.xci'
+  Source files are located in 'u:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/ip/proAceBD_rst_ps7_0_100M_0'
+  Output files are located in 'u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/ip/proAceBD_rst_ps7_0_100M_0'.
+CRITICAL WARNING: [BD 41-2597] Failed to copy 'U:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/hw_handoff/proAceBD.hwh' to 'u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/hw_handoff/proAceBD.hwh'
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+open_bd_design {u:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/proAceBD.bd}
+Reading block design file <u:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/proAceBD.bd>...
+Adding component instance block -- xilinx.com:user:proAceIP:1.0 - proAcePL
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+WARNING: [BD 41-176] The physical port 'S_AXI_GP2_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP2_wr_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP3_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP3_wr_socket' specified in the portmap, is not found on the block! 
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Successfully read diagram <proAceBD> from block design file <u:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/proAceBD.bd>
+open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1567.953 ; gain = 0.000
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'u:/PYNQ/ip_repo/proAceIP_1.0'.
+upgrade_ip -vlnv xilinx.com:ip:axi_interconnect:2.1 [get_ips  proAceBD_ps7_0_axi_periph_0] -log ip_upgrade.log
+Upgrading 'U:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/proAceBD.bd'
+INFO: [IP_Flow 19-3422] Upgraded proAceBD_ps7_0_axi_periph_0 (AXI Interconnect 2.1) from revision 22 to revision 27
+Wrote  : <u:\PYNQ\proAcePL\proAcePL.srcs\sources_1\bd\proAceBD\proAceBD.bd> 
+Wrote  : <u:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/ui/bd_2cd64a98.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'U:/PYNQ/proAcePL/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips proAceBD_ps7_0_axi_periph_0] -no_script -sync -force -quiet
+generate_target all [get_files  U:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/proAceBD.bd]
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+Wrote  : <u:\PYNQ\proAcePL\proAcePL.srcs\sources_1\bd\proAceBD\proAceBD.bd> 
+Verilog Output written to : u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/synth/proAceBD.v
+Verilog Output written to : u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/sim/proAceBD.v
+Verilog Output written to : u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/hdl/proAceBD_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proAcePL .
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/ip/proAceBD_auto_pc_0/proAceBD_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/hw_handoff/proAceBD.hwh
+Generated Hardware Definition File u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/synth/proAceBD.hwdef
+generate_target: Time (s): cpu = 00:00:29 ; elapsed = 00:00:28 . Memory (MB): peak = 1665.035 ; gain = 97.082
+catch { config_ip_cache -export [get_ips -all proAceBD_proAceIP_0_0] }
+catch { config_ip_cache -export [get_ips -all proAceBD_rst_ps7_0_100M_0] }
+catch { config_ip_cache -export [get_ips -all proAceBD_auto_pc_0] }
+export_ip_user_files -of_objects [get_files U:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/proAceBD.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] U:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/proAceBD.bd]
+launch_runs proAceBD_proAceIP_0_0_synth_1 proAceBD_processing_system7_0_0_synth_1 proAceBD_rst_ps7_0_100M_0_synth_1 proAceBD_auto_pc_0_synth_1 -jobs 6
+[Wed Oct 26 04:51:32 2022] Launched proAceBD_proAceIP_0_0_synth_1, proAceBD_processing_system7_0_0_synth_1, proAceBD_rst_ps7_0_100M_0_synth_1, proAceBD_auto_pc_0_synth_1...
+Run output will be captured here:
+proAceBD_proAceIP_0_0_synth_1: U:/PYNQ/proAcePL/proAcePL.runs/proAceBD_proAceIP_0_0_synth_1/runme.log
+proAceBD_processing_system7_0_0_synth_1: U:/PYNQ/proAcePL/proAcePL.runs/proAceBD_processing_system7_0_0_synth_1/runme.log
+proAceBD_rst_ps7_0_100M_0_synth_1: U:/PYNQ/proAcePL/proAcePL.runs/proAceBD_rst_ps7_0_100M_0_synth_1/runme.log
+proAceBD_auto_pc_0_synth_1: U:/PYNQ/proAcePL/proAcePL.runs/proAceBD_auto_pc_0_synth_1/runme.log
+export_simulation -of_objects [get_files U:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/proAceBD.bd] -directory U:/PYNQ/proAcePL/proAcePL.ip_user_files/sim_scripts -ip_user_files_dir U:/PYNQ/proAcePL/proAcePL.ip_user_files -ipstatic_source_dir U:/PYNQ/proAcePL/proAcePL.ip_user_files/ipstatic -lib_map_path [list {modelsim=U:/PYNQ/proAcePL/proAcePL.cache/compile_simlib/modelsim} {questa=U:/PYNQ/proAcePL/proAcePL.cache/compile_simlib/questa} {riviera=U:/PYNQ/proAcePL/proAcePL.cache/compile_simlib/riviera} {activehdl=U:/PYNQ/proAcePL/proAcePL.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+validate_bd_design -force
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+save_bd_design
+Wrote  : <u:\PYNQ\proAcePL\proAcePL.srcs\sources_1\bd\proAceBD\proAceBD.bd> 
+Wrote  : <u:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/ui/bd_2cd64a98.ui> 
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory U:/PYNQ/proAcePL/proAcePL.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+INFO: [BD 41-1662] The design 'proAceBD.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/synth/proAceBD.v
+Verilog Output written to : u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/sim/proAceBD.v
+Verilog Output written to : u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/hdl/proAceBD_wrapper.v
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/ip/proAceBD_auto_pc_0/proAceBD_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/hw_handoff/proAceBD.hwh
+Generated Hardware Definition File u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/synth/proAceBD.hwdef
+[Wed Oct 26 04:52:08 2022] Launched proAceBD_proAceIP_0_0_synth_1, proAceBD_processing_system7_0_0_synth_1, proAceBD_rst_ps7_0_100M_0_synth_1, proAceBD_auto_pc_0_synth_1, synth_1...
+Run output will be captured here:
+proAceBD_proAceIP_0_0_synth_1: U:/PYNQ/proAcePL/proAcePL.runs/proAceBD_proAceIP_0_0_synth_1/runme.log
+proAceBD_processing_system7_0_0_synth_1: U:/PYNQ/proAcePL/proAcePL.runs/proAceBD_processing_system7_0_0_synth_1/runme.log
+proAceBD_rst_ps7_0_100M_0_synth_1: U:/PYNQ/proAcePL/proAcePL.runs/proAceBD_rst_ps7_0_100M_0_synth_1/runme.log
+proAceBD_auto_pc_0_synth_1: U:/PYNQ/proAcePL/proAcePL.runs/proAceBD_auto_pc_0_synth_1/runme.log
+synth_1: U:/PYNQ/proAcePL/proAcePL.runs/synth_1/runme.log
+[Wed Oct 26 04:52:08 2022] Launched impl_1...
+Run output will be captured here: U:/PYNQ/proAcePL/proAcePL.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1691.891 ; gain = 18.949
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.466 . Memory (MB): peak = 1843.816 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1508 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.790 . Memory (MB): peak = 2591.688 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.790 . Memory (MB): peak = 2591.688 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2591.688 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:29 ; elapsed = 00:00:19 . Memory (MB): peak = 2724.832 ; gain = 1032.941
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Project 1-454] Reading design checkpoint 'u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/ip/proAceBD_proAceIP_0_0/proAceBD_proAceIP_0_0.dcp' for cell 'proAceBD_i/proAcePL'
+INFO: [Project 1-454] Reading design checkpoint 'u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/ip/proAceBD_processing_system7_0_0/proAceBD_processing_system7_0_0.dcp' for cell 'proAceBD_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/ip/proAceBD_rst_ps7_0_100M_0/proAceBD_rst_ps7_0_100M_0.dcp' for cell 'proAceBD_i/rst_ps7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/ip/proAceBD_auto_pc_0/proAceBD_auto_pc_0.dcp' for cell 'proAceBD_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.496 . Memory (MB): peak = 2815.637 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1514 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/ip/proAceBD_processing_system7_0_0/proAceBD_processing_system7_0_0.xdc] for cell 'proAceBD_i/processing_system7_0/inst'
+Finished Parsing XDC File [u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/ip/proAceBD_processing_system7_0_0/proAceBD_processing_system7_0_0.xdc] for cell 'proAceBD_i/processing_system7_0/inst'
+Parsing XDC File [u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/ip/proAceBD_rst_ps7_0_100M_0/proAceBD_rst_ps7_0_100M_0_board.xdc] for cell 'proAceBD_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/ip/proAceBD_rst_ps7_0_100M_0/proAceBD_rst_ps7_0_100M_0_board.xdc] for cell 'proAceBD_i/rst_ps7_0_100M/U0'
+Parsing XDC File [u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/ip/proAceBD_rst_ps7_0_100M_0/proAceBD_rst_ps7_0_100M_0.xdc] for cell 'proAceBD_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [u:/PYNQ/proAcePL/proAcePL.gen/sources_1/bd/proAceBD/ip/proAceBD_rst_ps7_0_100M_0/proAceBD_rst_ps7_0_100M_0.xdc] for cell 'proAceBD_i/rst_ps7_0_100M/U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2961.637 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 3015.844 ; gain = 215.828
+report_utilization -name utilization_r
+open_bd_design {u:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/proAceBD.bd}
+report_utilization -name utilization_1
+open_bd_design {u:/PYNQ/proAcePL/proAcePL.srcs/sources_1/bd/proAceBD/proAceBD.bd}

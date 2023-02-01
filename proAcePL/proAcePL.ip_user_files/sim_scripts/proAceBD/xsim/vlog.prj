@@ -1,0 +1,12 @@
+verilog xil_defaultlib --include "P:/Xilinx/Vivado/2022.2/data/xilinx_vip/include" --include "../../../../proAcePL.gen/sources_1/bd/proAceBD/ipshared/ec67/hdl" --include "../../../../proAcePL.gen/sources_1/bd/proAceBD/ipshared/ee60/hdl" \
+"../../../bd/proAceBD/ipshared/7bda/src/proAce.v" \
+"../../../bd/proAceBD/ipshared/7bda/hdl/proAceIP_v1_0_S00_AXI.v" \
+"../../../bd/proAceBD/ipshared/7bda/hdl/proAceIP_v1_0.v" \
+"../../../bd/proAceBD/ip/proAceBD_proAceIP_0_0/sim/proAceBD_proAceIP_0_0.v" \
+"../../../bd/proAceBD/ip/proAceBD_processing_system7_0_0/sim/proAceBD_processing_system7_0_0.v" \
+"../../../bd/proAceBD/ip/proAceBD_auto_pc_0/sim/proAceBD_auto_pc_0.v" \
+"../../../bd/proAceBD/sim/proAceBD.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
